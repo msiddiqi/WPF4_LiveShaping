@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfApp_LiveShaping.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:viewModel ="clr-namespace:WpfApp_LiveShaping"
+        xmlns:componentModel="clr-namespace:System.ComponentModel;assembly=WindowsBase"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <viewModel:MainViewModel />
+    </Window.DataContext>
+    <DockPanel>
+        <DockPanel.Resources>
+            <viewModel:CollectionViewSourceWithLiveSorting
+                x:Key="source"
+                Source="{Binding Students}"
+                >
+                <viewModel:CollectionViewSourceWithLiveSorting.SortDescriptions>
+                    <componentModel:SortDescription PropertyName="FirstName" />
+                </viewModel:CollectionViewSourceWithLiveSorting.SortDescriptions>
+            </viewModel:CollectionViewSourceWithLiveSorting>
+            <!--<CollectionViewSource 
+                x:Key="source"
+                IsLiveSortingRequested="True"
+                Source="{Binding Students}"
+                >
+                <CollectionViewSource.SortDescriptions>
+                    <componentModel:SortDescription PropertyName="FirstName" />
+                </CollectionViewSource.SortDescriptions>
+            </CollectionViewSource>-->
+        </DockPanel.Resources>
+        <Button Content="Press Me" DockPanel.Dock="Bottom" Click="Button_Click"></Button>
+        <ListBox ItemsSource="{Binding Source={StaticResource source}}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock.Text>
+                            <MultiBinding StringFormat="{}{0}-{1}">
+                                <Binding Path="FirstName" />
+                                <Binding Path="LastName" />
+                            </MultiBinding>
+                        </TextBlock.Text>
+                    </TextBlock>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+    </DockPanel>
+</Window>

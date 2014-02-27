@@ -1,0 +1,15 @@
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\MainWindow.g.cs
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\App.g.cs
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\WpfApp_LiveShaping_MarkupCompile.cache
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\WpfApp_LiveShaping_MarkupCompile.lref
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\bin\Debug\WpfApp_LiveShaping.exe.config
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\bin\Debug\WpfApp_LiveShaping.exe
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\bin\Debug\WpfApp_LiveShaping.pdb
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\MainWindow.baml
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\WpfApp_LiveShaping.g.resources
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\WpfApp_LiveShaping.Properties.Resources.resources
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\WpfApp_LiveShaping.csproj.GenerateResource.Cache
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\WpfApp_LiveShaping.exe
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\WpfApp_LiveShaping.pdb
+c:\users\muhammad\documents\visual studio 2012\Projects\WpfApp_LiveShaping\WpfApp_LiveShaping\obj\Debug\WpfApp_LiveShaping.csprojResolveAssemblyReference.cache
